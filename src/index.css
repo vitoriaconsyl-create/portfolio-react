@@ -35,7 +35,11 @@ body {
   font-size: 18px;
   margin: 0;
   line-height: 1.6;
-  transition: background 0.5s ease;
+  background: linear-gradient(var(--overlay), var(--overlay)), url('/fund.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      transition: background 0.5s ease;
 }
 
 header {
