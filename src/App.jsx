@@ -3,7 +3,7 @@ import Sobre from "./components/Sobre";
 import Projetos from "./components/Projetos";
 import Contato from "./components/Contato";
 import fundo from "./assets/fund.jpg";
-
+import Footer from "./components/Footer.jsx";
 function App() {
   return (
     <div style={{
@@ -17,6 +17,7 @@ function App() {
       <Sobre />
       <Projetos />
       <Contato />
+      <Footer />
     </div>
   );
 }
