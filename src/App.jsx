@@ -7,8 +7,11 @@ import fundo from "./assets/fund.jpg";
 function App() {
   return (
     <div style={{
-      backgroundImage: `url(${fundo})`,
-      backgroundSize: "cover"
+      backgroundImage: `linear-gradient(var(--overlay), var(--overlay)), url(${fundo})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundAttachment: "fixed",
+      minHeight: "100vh"
     }}>
       <Header />
       <Sobre />
